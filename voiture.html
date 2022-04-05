@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/voiture.css">
+</head>
+<body>
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <img src="image/logo1.jpg" alt="">  <span>Ca</span>rs</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#vehicles">vehicles</a>
+            <a href="#services">services</a>
+            <a href="#featured">featured</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div id="login-btn">
+            <bouton class="btn">login</bouton>
+            <i class="far fa-user"></i>
+        </div>
+
+
+    </header>
+
+    <div class="login-form-container">
+
+        <span class="fas fa-times " id="close-login-form"></span>
+        
+        <form action="">
+            <h3>user login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <input type="submit" value="login now" class="btn">
+            <p>or login with </p>
+            <div class="bouttons">
+                <a href="#" class="btn">google</a>
+                <a href="#" class="btn">facebook</a>
+            </div>
+            <p>don't have an account <a href="#">create one</a></p>
+        </form>
+
+    </div>
+
+    <section class="home" id="home">
+        <h1 class="home-parallax" data-speed="-2">find your car </h1>
+        <img  class="home-parallax" data-speed="5" src="image/home.png" alt="">
+       <a href="#" class="btn home-parallax" data-speed="7">explore cars</a>
+    </section>
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-home"></i>
+            <div class="content">
+                <h3>150+</h3>
+                <p>branches</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>4770+</h3>
+                <p>cars sold</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>590+</h3>
+                <p>happy clients</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>890+</h3>
+                <p>new cars</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="vehicles" id="vehicles">
+        <h1 class="heading">popular <span>vehicles</span></h1>
+
+        <div class="swiper vehicles-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/ferari.png" alt="">
+                    <div class="content">
+                        <h3>new model ferrari</h3>
+                        <div class="prince"><span>price:</span>€55000/-</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2021 
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol 
+                            <span class="fas fa-circle"></span> 183mph       
+                        </p>
+                        <a href="video/ferrari/Ferrari F12.mp4" class="btn">chek out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/porsch.png" alt="">
+                    <div class="content">
+                        <h3>new model porsch</h3>
+                        <div class="prince"><span>price:</span>€65000/-</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2021 
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol 
+                            <span class="fas fa-circle"></span> 183mph       
+                        </p>
+                        <a href="video/porsch/Porsche.mp4" class="btn">chek out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/alpine1.png" alt="">
+                    <div class="content">
+                        <h3>new model alpine</h3>
+                        <div class="prince"><span>price:</span>€52000/-</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2021 
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol 
+                            <span class="fas fa-circle"></span> 183mph       
+                        </p>
+                        <a href="video/alpine/Alpine A110 S.mp4" class="btn">chek out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/audi.png" alt="">
+                    <div class="content">
+                        <h3>new model audi</h3>
+                        <div class="prince"><span>price:</span>€55000/-</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2022 
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol 
+                            <span class="fas fa-circle"></span> 183mph       
+                        </p>
+                        <a href="video/audi/Audi.mp4" class="btn">chek out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                  <img src="image/ford.png" alt="">
+                    <div class="content">
+                        <h3>new model ford mustang</h3>
+                        <div class="prince"><span>price:</span>€58000/-</div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2022 
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol 
+                            <span class="fas fa-circle"></span> 183mph       
+                        </p>
+                        <a href="video/ford mustang/Ford Mustang Shelby.mp4" class="btn">chek out</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+            
+        </div>
+
+    </section>
+
+    <section class="services" id="services">
+
+        <h1 class="heading">our <span>services</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>car selling</h3>
+                <p>ipsum dolor sit amet consectetur adipisicing elit. Quo officiis quam aut dolores sint aperiam laboriosam labore. Perferendis, sed laborum soluta 
+                    reprehenderit enim sit ipsa repellat nihil alias optio in!
+                </p> 
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>parts repair</h3>
+                <p>ipsum dolor sit amet consectetur adipisicing elit. Quo officiis quam aut dolores sint aperiam laboriosam labore. Perferendis, sed laborum soluta 
+                    reprehenderit enim sit ipsa repellat nihil alias optio in!
+                </p> 
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>car insurence</h3>
+                <p>ipsum dolor sit amet consectetur adipisicing elit. Quo officiis quam aut dolores sint aperiam laboriosam labore. Perferendis, sed laborum soluta 
+                    reprehenderit enim sit ipsa repellat nihil alias optio in!
+                </p> 
+                <a href="#" class="btn">read more</a>
+            </div>
+
+
+       
+
+        </div>
+
+    </section>
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"><span>featured</span> cars </h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide box">
+                    <img src="image/f2.jpg" alt="">
+                    <h3>new model ferrari</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€64,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/fo1.jpg" alt="">
+                    <h3>new model ford mustang </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€66,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/fo2.jpg" alt="">
+                    <h3>new model ford mustang</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€65,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/f1.jpg" alt="">
+                    <h3>new model ferrari </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€79,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/p1.jpg" alt="">
+                    <h3> new model porsch</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€80,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide box">
+                    <img src="image/a1.jpg" alt="">
+                    <h3>new model alpine</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€79,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/au1.jpg" alt="">
+                    <h3>new model audi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€62,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/au3.jpg" alt="">
+                    <h3>new model audi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€64,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/a3.jpg" alt="">
+                    <h3>new model alpine</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€68,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/au3.jpg" alt="">
+                    <h3>new model audi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€69,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/a2.jpg" alt="">
+                    <h3>new model alpine</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">€70,000/-</div>
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+
+
+    <section class="newsletter">
+
+        <h3>subscribe for latest updates </h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque similique expedita amet suscipit, reprehenderit eum quasi culpa nisi repellat, rerum repudiandae. Nam aliquid nesciunt consequatur dolorem amet, enim cupiditate molestiae.</p>
+        <form action="">
+            <input type="email" placeholder="entre your email"  name=""  id="">
+            <input type="submit" class="subscribe" name=""  id="">
+        </form>
+
+    </section>
+
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading">client's <span>review</span></h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/r2.jpg" alt="">
+                    <div class="content">
+                        <p>In my life (I'm almost 60) I've had many cars. From Renault to PSA via Lancia and Porsche. This 430 D X Drive F36 is by far (yes by far) the best car I've driven. Consumption below 7 liters and about 8 liters driving in Germany. Maintenance in concession from 400 to 700 euro every 30,000 kms. Today I have 175,000 km on the clock and no problem.</p>
+                        <h3>omario kodda</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/p4.jpg" alt="">
+                    <div class="content">
+                        <p>Hello everyone,
+                            Owner of an F type 300 hp BVA since July 2019, I am very satisfied with it.
+                            What fun!
+                            I even experience more driving sensations than with my old 981 Boxster (PDK) and my old 997 phase 1 (manual box).
+                            The only downside concerns the sound which, for this model, does not compete with the flat 6 from Porsche, but hey, I expected that. And that's really the only weak point that I found..</p>
+                        <h3>franck lepage</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/r1.jpg" alt="">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio molestias omnis, quos, excepturi vel id sit voluptates quasi quo incidunt, error dolores dolorem tempora. Nemo deleniti commodi at voluptates nostrum.</p>
+                        <h3>Antoine Koouassi</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/p3.jpg" alt="">
+                    <div class="content">
+                        <p>I have owned this car since December 2018 and I am absolutely delighted with it as much by the line as by the irreproachable road behavior.Easy and economical maintenance (vehicle with a controlled weight that does not cause unreasonable wear of consumables such as tires, brake pads), it can prove to be a little greedy in fuel when you go up in the towers due to a dip between 3000 and 4500 rpm also causing engine noise that is a little present in the cabin.
+                            But it is a complete sports coupe that would have deserved 50 additional hp.
+                            The finish is of good quality and the equipment is complete for the price..</p>
+                        <h3>eva angelina</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/p2.webp" alt="">
+                    <div class="content">
+                        <p>Hello caradisiac,I am going to present to you in a few words the aston martin v12 vantage that I have owned for almost a year.
+                            This car is very efficient, for me it drives very well, the steering is precise. On the consumption side, it is very high (normal v12 6 liters) since in town we are running around 17 to 20 l/100 km. But hey, we easily forget that because the noise of the v12 is sumptuous, as soon as we push the pedal it starts to sing melodiously. </p>
+                        <h3>Cédric LAILLER</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/r4.jpg" alt="">
+                    <div class="content">
+                        <p>Owner of a 1973 PORSCHE 914 2.0 L bought in 1980 4,500 frs
+                           Since restored from 1989 to 1992 from the bare hull, a super restoration...                           
+                            now it's been almost 35 years that I am the proud owner...                            
+                            of this fantastic PORSCHE which only deserves good things to say                            
+                            on this model. Road holding superior to the old 911s, an appetite                            
+                            of birds, a robustness to all tests, a little the head of the 911...                            
+                            from certain angles finally a passion car!!! only happiness!!!                            
+                            I am now 55 years old and not finished driving with it...And of course with the sun...Des Vosges 88.Small message from a PORSCHIST.Dit "ericporsche"..</p>
+                        <h3>Chritian Quest</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <div class="row">
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44994.219260534024!2d5.680434786931582!3d45.
+            18428841959126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+            1!3m3!1m2!1s0x478af48bd689be6f%3A0x618c10cd6e995398!
+            2sGrenoble!5e0!3m2!1sfr!2sfr!4v1649026725868!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea placeholder="messsage"  class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> indien </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> australia </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#vehicles"> <i class="fas fa-arrow-right"></i> vehicles </a>
+                <a href="#services"> <i class="fas fa-arrow-right"></i> services </a>
+                <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+                <a href="#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
+                <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>    
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +334-68-24-36-87 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +336-48-84-86-82 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> cars@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> grenoble 38000 </a>     
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            </div>
+
+        </div>
+
+    </section>
+    
+
+
+    <video id="videoTOTO" style="display:none" src="video/ferrari/Ferrari F12.mp4">
+    <img onclick="document.getElementById('videoTOTO').style.display='none';" src="image/ferari.png"/>
+    
+    
+
+   
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/voiture.js"></script>
+</body>
+</html>
+
+
